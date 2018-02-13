@@ -49,7 +49,36 @@ body {
 }
 
 hr {
-  height: 10px;
-  border: 0;
-  box-shadow: 0 10px 10px -10px #8c8c8c inset;
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8c8c inset;
+}
+
+#conline {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px white inset;
+}
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.cont {
+    color: white;
+}
+
+table, tr, td {
+    text-align: left;
+    padding: 10px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+#num {
+    padding: 0px;
+}
+.c1 {
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
