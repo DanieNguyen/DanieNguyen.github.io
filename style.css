@@ -1,0 +1,55 @@
+/* Style Sheet for Portfolio Website */
+
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+body {
+    font-size: 16px;
+}
+@font-face {
+    font-family: mySiteFont;
+    src: url("Fonts/Allura-Regular.otf");
+}
+
+@font-face {
+    font-family: myHead;
+    src: url("Fonts/nordicaclassicltext.otf");
+}
+#header {
+    font-family: mySiteFont;
+    text-align: center;
+    font-size: 8em;
+    font-weight: 500;
+    color: white;
+}
+
+.jumbotron {
+    background-image: url("Images/background.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    border-radius: 0px;
+}
+
+#statement {
+    color: white;
+    text-align: center;
+    font-family: myHead;
+    font-size: 2em;
+    padding-top: 80px;
+    letter-spacing: 1.5px;
+}
+
+.section {
+    font-family: myHead;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+hr {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #8c8c8c inset;
+}
