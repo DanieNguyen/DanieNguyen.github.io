@@ -14,6 +14,10 @@ body {
     src: url("Fonts/Allura-Regular.otf");
 }
 
+.icon {
+    width: 16px;
+    height: 16px;
+}
 @font-face {
     font-family: myHead;
     src: url("Fonts/nordicaclassicltext.otf");
