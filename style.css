@@ -1,11 +1,36 @@
 /* Style Sheet for Portfolio Website */
 
 .logo {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
+.navbar-trans {
+    background: transparent; 
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    margin-right: 45px !important;
+}
+
+.bar {
+    color: white !important;
+    font-size: 20px;
+}
+
+.bar:hover, .active {
+    color: white !important;
+    border-bottom: 3px white solid;
+    display: inline-block;
+    line-height: .6;
+    margin-top: 8.5px;
+}
+.container {
+    height: 500px;
+}
 body {
     font-size: 16px;
 }
@@ -15,8 +40,8 @@ body {
 }
 
 .icon {
-    width: 16px;
-    height: 16px;
+    width: 30px;
+    height: 30px;
 }
 @font-face {
     font-family: myHead;
@@ -27,22 +52,36 @@ body {
     text-align: center;
     font-size: 8em;
     font-weight: 500;
-    color: white;
+    padding-top: 100px;
+    color: black;
 }
 
-.jumbotron {
-    background-image: url("Images/background.jpg");
+.intro {
+    background-image: url("Images/lightpaper.jpeg");
     background-repeat: no-repeat;
     height: 600px;
     border-radius: 0px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: -30px;
+}
+
+.me {
+    background-image: url("Images/design.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    border-radius: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 #statement {
-    color: white;
+    color: black;
     text-align: center;
     font-family: myHead;
     font-size: 2em;
-    padding-top: 80px;
+    padding-top: 50px;
     letter-spacing: 1.5px;
 }
 
@@ -50,6 +89,7 @@ body {
     font-family: myHead;
     font-weight: bold;
     letter-spacing: 1.5px;
+    padding-top: 100px;
 }
 
 hr {
@@ -82,7 +122,5 @@ table, tr, td {
 #num {
     padding: 0px;
 }
-.c1 {
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
+
+  
