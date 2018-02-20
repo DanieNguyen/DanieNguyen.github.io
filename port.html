@@ -1,13 +1,13 @@
 <html>
     <head>
-        <title>Welcome to my Website</title>
+        <title>My Portfolio</title>
         <link rel="stylesheet" href="bootstrap-4/css/bootstrap.min.css">
         <script src="bootstrap-4/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="style.css" type="text/css">
         <link class="icon" rel="shortcut icon" type="image/x-icon" href="Images/myLogo.png" />
     </head>
     <body>
-        <section class="intro">
+        <section class="port">
             <nav class="navbar navbar-toggleable-md navbar-trans navbar-inverse">
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,59 +24,102 @@
                             <a class="nav-link bar active" href="port.html">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link bar" href="contact.html">Contact</a>
+                            <a class="nav-link bar" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
             </nav>
-            <div class="jumbotron intro">
-                <h1 id="header">Hi</h1>
-                <div id="statement">
-                    <h2>My name is Daniel Nguyen</h2>
-                    <h2>An aspiring UX Engineer</h2>
-                </div>
+            <div class="jumbotron port">
+                <h1 class="header por2">My work</h1>
             </div>
         </section>
-        <div class="container">
-            <h4 class="section">About Me</h2>
-                <hr>
-                <p>I am a student at the University of Washington in Seattle, WA. I am a Sophomore intending to major in Human Centered
-                    Design and Engineering (HCDE). I have experience in Graphic Design, web design, database research analysis,
-                    and programming. </p>
-                <br>
-                <p>Current Courses:
-                    <ul>
-                        <li>BIMD 250: Introduction to Interaction Design</li>
-                        <li>BIMD 233: Fundamentals of Web Design</li>
-                        <li>INFO 201: Technical Foundations</li>
-                    </ul>
-                </p>
-        </div>
-        <div class="jumbotron me">
-            <h1 id="header">Hi</h1>
-            <div id="statement">
-                <h2>My name is Daniel Nguyen</h2>
-                <h2>An aspiring UX Engineer</h2>
+        <div class="container gal">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <a href="Images/website.png">
+                            <img class="image" src="Images/website.png" alt="MyWebsite">
+                            <div class="caption">
+                                <p>My Website</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <a href="Images/design.JPG">
+                            <img class="image" src="Images/design.JPG" alt="HCDE">
+                            <div class="caption">
+                                <p>HCDE 210</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <a href="Images/chef.png">
+                            <img class="image" src="Images/chef.png" alt="Lights">
+                            <div class="caption">
+                                <p>College Chef</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <a href="Images/CollisionGif.gif">
+                        <img class="image" src="Images/CollisionGif.gif" alt="MyWebsite">
+                        <div class="caption">
+                            <p>SpaceBox</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <a href="Images/visual.png">
+                            <img class="image" src="Images/visual.png" alt="Lights">
+                            <div class="caption">
+                                <p>Data Visualizations</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <a href="Images/wolftat.png">
+                            <img class="image" src="Images/wolftat.png" alt="Lights">
+                            <div class="caption">
+                                <p>Graphic Design</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-        <footer class="footer" id="contact">
-            <div>
-                <h6 class="section">Contact Me</h2>
-                    <hr id="conline">
-                    <table>
-                        <tr>
-                            <td>
-                                <a href="mailto:danngu@uw.edu" class="cont">danngu@uw.edu</a>
-                            </td>
-                            <td>
-                                <a href="https://www.linkedin.com/in/danielnguyenuw/" class="cont">linkedin</a>
-                            </td>
-                            <td>
-                                <a href="#" class="cont">425-215-9646</a>
-                            </td>
-                        </tr>
-                    </table>
-            </div>
-        </footer>
+        <div class="foot" id="contact">
+            <table>
+                <tr>
+                    <th>Contact Me</th>
+                    <td id="first">
+                        <a href="mailto:danngu@uw.edu" class="cont">danngu@uw.edu</a>
+                    </td>
+                    <td>
+                        <a href="https://www.linkedin.com/in/danielnguyenuw/" class="cont">LinkedIn</a>
+                    </td>
+                    <td>
+                        <a href="#" class="cont">425-215-9646</a>
+                    </td>
+                    <td>
+                        <a href="https://github.com/DanieNguyen" class="cont">GitHub</a>
+                    </td>
+                    <td>
+                        <a href="https://medium.com/@danngu_26559" class="cont">Medium</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </body>
 </html>
