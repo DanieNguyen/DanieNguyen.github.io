@@ -19,14 +19,21 @@
 .bar {
     color: white !important;
     font-size: 20px;
+    margin-right: 5px;
 }
-
+/*
 .bar:hover, .active {
     color: white !important;
     border-bottom: 3px white solid;
-    display: inline-block;
-    line-height: .6;
+    display: inline;
     margin-top: 8.5px;
+}*/
+
+.bar:hover, .active {
+  background-image: linear-gradient(to right, white 75%, white 75%);
+  background-position: 0 2em;
+  background-repeat: repeat-x;
+  background-size: 8px 3px;
 }
 .container {
     height: 500px;
@@ -37,6 +44,11 @@ body {
 @font-face {
     font-family: mySiteFont;
     src: url("Fonts/Allura-Regular.otf");
+}
+
+@font-face {
+    font-family: myFont;
+    src: url("Fonts/handwrite.ttf");
 }
 
 .icon {
@@ -54,6 +66,7 @@ body {
     font-weight: 500;
     padding-top: 100px;
     color: black;
+    padding-right: 450px;
 }
 
 .intro {
@@ -79,10 +92,17 @@ body {
 #statement {
     color: black;
     text-align: center;
-    font-family: myHead;
-    font-size: 2em;
-    padding-top: 50px;
-    letter-spacing: 1.5px;
+    font-family: myFont;
+    font-size: 48px;
+    letter-spacing: 3px;
+    padding-right: 100px;
+    padding-top: 40px;
+    line-height: 1;
+}
+
+#align {
+    display: inline-block;
+    text-align: left;
 }
 
 .section {
