@@ -206,6 +206,11 @@ th {
     background-color: rgba(192,192,192, 0.3)
 }
 
+.thank {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .gal {
     height: 520px;
     margin-top: 160px;
