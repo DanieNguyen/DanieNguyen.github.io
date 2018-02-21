@@ -1,3 +1,23 @@
+<?php
+
+if($_POST["submit"]) {
+    $recipient="danngu@uw.edu";
+    $subject="Form to email message";
+    $first=$_POST["first"];
+    $last=$_POST["last"];
+    $option=$_POST["option"];
+    $email=$_POST["email"];
+    $message=$_POST["message"];
+
+    $mailBody="Name: $first $last\nEmail: $email\n $option\n \n$message";
+
+    mail($recipient, $subject, $mailBody, "From: $first $last <$email>");
+
+    $thankYou="<p>Thank you! Your message has been sent.</p>";
+}
+
+?><!DOCTYPE html>
+
 <html>
     <head>
         <title>Welcome to my Website</title>
@@ -35,25 +55,26 @@
             </div>
         </section>
         <div class="container gal2">
+            <?=$thankYou ?>
             <h4>Fill out this form to contact me or call me at 425-215-9646 (PST)</h4>
             <hr>
             <br>
-            <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbxwGkftg7swDEgOFExwKKvXHh5vyborOpIyf95GyXwwmy8upyqq/exec">
+            <form method="POST" action="contact.php">
                 <div class="row">
                     <div class="col">
-                        <input type="text" id="First Name" for="First Name" name="First Name" class="form-control" placeholder="First name">
+                        <input type="text" id="first" for="first" name="first" class="form-control" placeholder="First name">
                     </div>
                     <div class="col">
-                        <input type="text" id="Last Name" for="Last Name" name="Last Name" class="form-control" placeholder="Last name">
+                        <input type="text" id="last" for="last" class="form-control" placeholder="Last name">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Email address</label>
-                    <input type="email" id="Email" for="Email" name="Email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <input type="email" id="email" for="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlSelect2">Reason For Contacting</label>
-                    <select multiple class="form-control" id="Reason" for="Reason" name="Reason" id="exampleFormControlSelect2">
+                    <select multiple class="form-control" id="option" for="option" name="option" id="exampleFormControlSelect2">
                         <option>Question</option>
                         <option>Meeting</option>
                         <option>Hiring</option>
@@ -62,7 +83,7 @@
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Response</label>
-                    <textarea class="form-control" id="Text" for="Text" name="Text" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea class="form-control" id="message" for="message" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 <br>
                 <button type="submit" class="btn btn-info">Submit</button>
