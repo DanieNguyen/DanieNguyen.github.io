@@ -1,75 +1,61 @@
 <html>
     <head>
-        <title>Welcome to my Website</title>
+        <title>Contact Me</title>
         <link rel="stylesheet" href="bootstrap-4/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:500" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="bootstrap-4/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="style.css" type="text/css">
         <link class="icon" rel="shortcut icon" type="image/x-icon" href="Images/myLogo.png" />
     </head>
-    <body>
-        <section class="cont">
-            <nav class="navbar navbar-toggleable-md navbar-trans navbar-inverse">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="index">
-                    <img class="logo" src="Images/myLogo.png"> Daniel Nguyen</a>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link bar " href="DanielNguyenRes.pdf" target="_blank">Resume</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link bar" href="portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link bar" href="contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <div class=" jumbotron cont">
-                <h1 class="header por2">Contact Me</h1>
+    <body class="white">
+        <div class="contact" id="top">
+            <ul class="nav nostick">
+                <img class="logo" src="Images/myLogo.png">
+                <li><a class="nav-link cont" href="index">Home</a></li>
+                <li><a class="nav-link cont" href="DanielNguyenRes.pdf" target="_blank">Resume</a></li>
+                <li><a class="nav-link cont" href="portfolio">Portfolio</a></li>
+                <li><a class="nav-link cont active" href="contact">Contact</a></li>
+            </ul>
+            <div class="words">
+                <span class="txt-rotate" data-period="2000" data-rotate='[ "Get in Touch!"]'></span>
             </div>
-        </section>
-        <div class="container gal2">
-                <h4>Fill out this form to contact me or call me at 425-215-9646 (PST)</h4>
-                <hr>
-                <br>
-                <form method="POST" action="https://formspree.io/danngu@uw.edu">
-                    <div class="row">
-                        <div class="col">
-                            <input type="text" id="first" for="first" name="first" class="form-control" placeholder="First name">
-                        </div>
-                        <div class="col">
-                            <input type="text" id="last" for="last" name="last" class="form-control" placeholder="Last name">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Email address</label>
-                        <input type="email" id="email" for="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlSelect2">Reason For Contacting</label>
-                        <select multiple class="form-control" id="option" for="option" name="option" id="exampleFormControlSelect2">
-                            <option>Question</option>
-                            <option>Meeting</option>
-                            <option>Hiring</option>
-                            <option>Other</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Response</label>
-                        <textarea class="form-control" id="message" for="message" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                    <br>
-                    <button type="submit" class="btn btn-info">Submit</button>
-                    <input type="hidden" name="_next" value="thanks" />
-                    <input type="hidden" name="_format" value="plain" />
-                </form>
         </div>
+        <div class="contactform">
+            <h4>Fill out this form to contact me or call me at 425-215-9646 (PST)</h4>
+            <hr>
+            <br>
+            <form method="POST" action="https://formspree.io/danngu@uw.edu">
+                <div class="row">
+                    <div class="col">
+                        <input type="text" id="first" for="first" name="first" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col">
+                        <input type="text" id="last" for="last" name="last" class="form-control" placeholder="Last name">
+                    </div>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" id="email" for="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect2">Reason For Contacting</label>
+                    <select multiple class="form-control" id="option" for="option" name="option" id="exampleFormControlSelect2">
+                        <option>Question</option>
+                        <option>Meeting</option>
+                        <option>Hiring</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Response</label>
+                    <textarea class="form-control" id="message" for="message" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-info">Submit</button>
+                <input type="hidden" name="_next" value="thanks" />
+                <input type="hidden" name="_format" value="plain" />
+            </form>
         </div>
         <div class="foot" id="contact">
             <table>
@@ -103,5 +89,9 @@
                 </tr>
             </table>
         </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="bootstrap-4/js/bootstrap.min.js"></script>
+        <script src="portfo.js"></script>
     </body>
 </html>

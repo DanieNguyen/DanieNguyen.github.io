@@ -1,136 +1,135 @@
 <html>
-    <head>
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="bootstrap-4/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="bootstrap-4/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="style.css" type="text/css">
-        <link class="icon" rel="shortcut icon" type="image/x-icon" href="Images/myLogo.png" />
-    </head>
-    <body>
-        <section class="port">
-            <nav class="navbar navbar-toggleable-md navbar-trans navbar-inverse">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="index">
-                    <img class="logo" src="Images/myLogo.png"> Daniel Nguyen</a>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link bar " href="DanielNguyenRes.pdf" target="_blank">Resume</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link bar active" href="portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link bar" href="contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <div class="jumbotron port">
-                <h1 class="header por2">My work</h1>
-            </div>
-        </section>
-        <div class="container gal">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                        <a href="Images/website.PNG">
-                            <img class="image" src="Images/website.PNG" alt="MyWebsite">
-                            <div class="caption">
-                                <p>My Website</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                        <a href="Images/design.JPG">
-                            <img class="image" src="Images/design.JPG" alt="HCDE">
-                            <div class="caption">
-                                <p>HCDE 210</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                        <a href="Images/chef.PNG">
-                            <img class="image" src="Images/chef.PNG" alt="Lights">
-                            <div class="caption">
-                                <p>College Chef</p>
-                            </div>
-                        </a>
-                    </div>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="bootstrap-4/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link class="icon" rel="shortcut icon" type="image/x-icon" href="Images/myLogo.png" />
+</head>
+
+<body class="port">
+    <div class="portfolio" id="top">
+        <ul class="nav nostick">
+            <img class="logo" src="Images/myLogo.png">
+            <li>
+                <a class="nav-link" href="index">Home</a>
+            </li>
+            <li>
+                <a class="nav-link" href="DanielNguyenRes.pdf" target="_blank">Resume</a>
+            </li>
+            <li>
+                <a class="nav-link activeBlack" href="portfolio">Portfolio</a>
+            </li>
+            <li>
+                <a class="nav-link" href="contact">Contact</a>
+            </li>
+        </ul>
+        <div class="words">
+            <span class="txt-rotate" data-period="2000" data-rotate='[ "My Code", "My Designs", "My Work"]'></span>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="Images/website.PNG">
+                        <img class="image" src="Images/website.PNG" alt="MyWebsite">
+                        <div class="caption">
+                            <p>Code</p>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                        <a href="Images/CollisionGif.gif">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="Images/design.JPG">
+                        <img class="image" src="Images/design.JPG" alt="HCDE">
+                        <div class="caption">
+                            <p>HCDE Work</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="Images/chef.PNG">
+                        <img class="image" src="Images/chef.PNG" alt="Lights">
+                        <div class="caption">
+                            <p>College Chef</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="Images/CollisionGif.gif">
                         <img class="image" src="Images/CollisionGif.gif" alt="MyWebsite">
                         <div class="caption">
                             <p>SpaceBox</p>
                         </div>
-                        </a>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                        <a href="Images/visual.PNG">
-                            <img class="image" src="Images/visual.PNG" alt="Lights">
-                            <div class="caption">
-                                <p>Data Visualizations</p>
-                            </div>
-                        </a>
-                    </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="Images/visual.PNG">
+                        <img class="image" src="Images/visual.PNG" alt="Lights">
+                        <div class="caption">
+                            <p>Data Visualizations</p>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                        <a href="Images/wolftat.PNG">
-                            <img class="image" src="Images/wolftat.PNG" alt="Lights">
-                            <div class="caption">
-                                <p>Graphic Design</p>
-                            </div>
-                        </a>
-                    </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="Images/wolftat.PNG">
+                        <img class="image" src="Images/wolftat.PNG" alt="Lights">
+                        <div class="caption">
+                            <p>Graphic Design</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="foot" id="contact">
-            <table>
-                <tr>
-                    <th>My Media</th>
-                    <td id="first">
-                        <a href="mailto:danngu@uw.edu">
-                            <i class="fa fa-envelope-o"></i>
-                        </a>
-                    </td>
-                    <td>
-                        <a href="https://www.linkedin.com/in/danielnguyenuw/">
-                            <i class="fa fa-linkedin"></i>
-                        </a>
-                    </td>
-                    <td>
-                        <a href="https://bitbucket.org/danngu/">
-                            <i class="fa fa-bitbucket"></i>
-                        </a>
-                    </td>
-                    <td>
-                        <a href="https://github.com/DanieNguyen">
-                            <i class="fa fa-github"></i>
-                        </a>
-                    </td>
-                    <td>
-                        <a href="https://medium.com/@danngu_26559">
-                            <i class="fa fa-medium"></i>
-                        </a>
-                    </td>
-                </tr>
-            </table>
-        </div>
-    </body>
+    </div>
+    <div class="foot" id="contact">
+        <table>
+            <tr>
+                <th>My Media</th>
+                <td id="first">
+                    <a href="mailto:danngu@uw.edu">
+                        <i class="fa fa-envelope-o"></i>
+                    </a>
+                </td>
+                <td>
+                    <a href="https://www.linkedin.com/in/danielnguyenuw/">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </td>
+                <td>
+                    <a href="https://bitbucket.org/danngu/">
+                        <i class="fa fa-bitbucket"></i>
+                    </a>
+                </td>
+                <td>
+                    <a href="https://github.com/DanieNguyen">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </td>
+                <td>
+                    <a href="https://medium.com/@danngu_26559">
+                        <i class="fa fa-medium"></i>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="bootstrap-4/js/bootstrap.min.js"></script>
+    <script src="portfo.js"></script>
+</body>
 </html>

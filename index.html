@@ -1,83 +1,80 @@
 <html>
     <head>
-        <title>Welcome to my Website</title>
+        <title>Daniel Nguyen</title>
         <link rel="stylesheet" href="bootstrap-4/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="bootstrap-4/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Raleway:500" rel="stylesheet">  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">      
         <link rel="stylesheet" href="style.css" type="text/css">
         <link class="icon" rel="shortcut icon" type="image/x-icon" href="Images/myLogo.png" />
     </head>
     <body>
-        <section class="intro">
-            <nav class="navbar navbar-toggleable-md navbar-trans navbar-inverse">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="index">
-                    <img class="logo" src="Images/myLogo.png"> Daniel Nguyen</a>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link bar " href="DanielNguyenRes.pdf" target="_blank">Resume</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link bar" href="portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link bar" href="contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <div class="jumbotron intro">
-                <h1 class="header">Hi, </h1>
-                <div id="statement">
-                    <div id="align">
-                        <p>My name is Daniel Nguyen</p>
-                        <p>An aspiring UX engineer</p>
-                    </div>
-                </div>
+        <div class="intro" id="top">
+            <ul class="nav">
+                <img class="logo" src="Images/myLogo.png">
+                <li><a class="nav-link" href="index">Home</a></li>
+                <li><a class="nav-link" href="DanielNguyenRes.pdf" target="_blank">Resume</a></li>
+                <li><a class="nav-link" href="portfolio">Portfolio</a></li>
+                <li><a class="nav-link" href="contact">Contact</a></li>
+            </ul>
+            <div class="words">
+                <h1>Hi</h1>
+                <p>I am Daniel Nguyen</p>
+                <span class="txt-rotate" data-period="2000" data-rotate='[ "HCDE Student", "UX Engineer"]'></span>
             </div>
-        </section>
-        <div class="container">
-            <h4 class="section">About Me</h4>
-            <hr class="line">
-            <p><img class="picofme" src="Images/me.JPG">I am a student at the University of Washington in Seattle, WA. I intend to major in Human Centered Design and Engineering (HCDE). I have experience in graphic design, web design, database research and analysis, and programming. My favorite food is fried rice, my favorite athlete is Lebron James, and my favorite anime (right now) is Dragon Ball Super. </p>
-            <br>
-            <p>Current Courses:
-                <ul>
+            <a href="#about" id="arrow"><span></span></a>
+        </div>
+        <div id="about">
+            <div class="descr">
+                <h1>About Me</h1>
+                <p>
+                    <img class="picofme" src="Images/me.JPG">I am a student at the University of Washington in Seattle, WA. I am majoring in Human Centered Design and Engineering
+                    (HCDE). I have experience in graphic design, web design, database research and analysis, and programming. My favorite
+                    food is fried rice, my favorite athlete is Lebron James, and my favorite anime (right now) is Dragon Ball Super. </p>
+                <p>Currently Taking</p>
+                <ul class="classes">
                     <li>BIMD 250: Introduction to Interaction Design</li>
                     <li>BIMD 233: Fundamentals of Web Design</li>
                     <li>INFO 201: Technical Foundations</li>
                 </ul>
-            </p>
-        </div>
-        <div class="me">
-            <h1 class="header por">My Portfolio</h1>
-            <a class="btn btn-outline-info btn1" href="portfolio" role="button">Click Here</a>
+                <a href="#top" id="arrow2"><span></span></a>
+
+            </div>
         </div>
         <div class="foot" id="contact">
-                <table>
-                    <tr>
-                        <th>My Media</th>
-                        <td id="first">
-                            <a href="mailto:danngu@uw.edu"><i class="fa fa-envelope-o"></i></a>
-                        </td>
-                        <td>
-                            <a href="https://www.linkedin.com/in/danielnguyenuw/"><i class="fa fa-linkedin"></i></a>
-                        </td>
-                        <td>
-                            <a href="https://bitbucket.org/danngu/"><i class="fa fa-bitbucket"></i></a>
-                        </td>
-                        <td>
-                            <a href="https://github.com/DanieNguyen"><i class="fa fa-github"></i></a>
-                        </td>
-                        <td>
-                            <a href="https://medium.com/@danngu_26559"><i class="fa fa-medium"></i></a>
-                        </td>
-                    </tr>
-                </table>
+            <table>
+                <tr>
+                    <th>My Media</th>
+                    <td id="first">
+                        <a href="mailto:danngu@uw.edu">
+                            <i class="fa fa-envelope-o"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://www.linkedin.com/in/danielnguyenuw/">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://bitbucket.org/danngu/">
+                            <i class="fa fa-bitbucket"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://github.com/DanieNguyen">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://medium.com/@danngu_26559">
+                            <i class="fa fa-medium"></i>
+                        </a>
+                    </td>
+                </tr>
+            </table>
         </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="bootstrap-4/js/bootstrap.min.js"></script>
+        <script src="portfo.js"></script>
     </body>
 </html>
