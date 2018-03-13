@@ -5,7 +5,7 @@
         width: 100%;
         height: 100%;
         text-align: center;
-        background-color: whitesmoke;
+        background-color: white;
         background-image: url("Images/laptop.png");
         background-repeat: no-repeat;
         background-position: center;
@@ -17,7 +17,8 @@
         width: 100%;
         height: 92%;
         text-align: center;
-        background-color:#c7ecee;
+        background-color:#A4C2A5;
+        color: #35462B;
     }
 
     
@@ -25,46 +26,41 @@
         width: 100%;
         height: 40%;
         text-align: center;
-        background-color:#130f40;
-        color: white;
+        background-color:white;
+        color: black;
     }
 
     .contactform {
         width: 60%;
         margin: auto;
         margin-top: 5%;
-        background-color:#c7ecee;
+        background-color:white;
     }
 
     .portfolio {
         width: 100%;
         height: 40%;
         text-align: center;
-        background-color: lavenderblush;
+        background-color: white;
         color: black;
     }
 
     .gallery {
         height: 90%;
         margin: auto;
-        background-color: lightblue;
+        background-color: #C7ECEE;
         margin-top: 8%;
     }
 
     .thanks {
         margin: auto;
         margin-top: 5%;
-        background-color:#c7ecee;
+        background-color:white;
         font-size: 24px;
         text-align: center;
     }
-
-    .white {
-        background-color: #c7ecee;
-    }
-
     .port {
-        background-color: lightblue;
+        background-color: #C7ECEE;
     }
 
     .foot {
@@ -73,11 +69,26 @@
         height: 8%;
         padding-bottom: 1%;
         padding-top: 1%;
-        background-color: #dff9fb;
+        background-color: #F1F2EB;
+    }
+
+    .foot1 {
+        margin-top:auto;
+        text-align: center;
+        height: 8%;
+        padding-bottom: 1%;
+        padding-top: 1%;
+        background-color: #3E5C76;
     }
 
     .foot table {
         margin: auto;
+        color: #566246;
+    }
+
+    .foot1 table {
+        margin: auto;
+        color: whitesmoke;
     }
 
     td, th {
@@ -85,6 +96,13 @@
         padding-right: 10px;
     }
     
+    .boo {
+        color: #566246;
+    }
+
+    .boo1 {
+        color: whitesmoke;
+    }
 
     .nav {
         list-style-type: none;
@@ -92,12 +110,6 @@
         width: 100%;
         padding: 20px;
         overflow: hidden;
-        position: fixed;
-        top: 0;
-    }
-
-    .nostick {
-        position: absolute;
     }
 
     .nav li {
@@ -117,34 +129,10 @@
         font-size: 22px;
     }
 
-    li a:hover {
+    li a:hover, .activeBlack {
         color: black;
         border-bottom: 2px solid black;
     }
-
-    .cont {
-        display: block;
-        text-align: center;
-        text-decoration: none;
-        padding-right: 6px !important;
-        padding-left: 6px !important;
-        padding-bottom: 5px !important;
-        margin-right: 5px !important;
-        margin-left: 5px;
-        font-size: 22px;
-        color: white !important;
-    }
-
-    .cont:hover, .active {
-        color: white;
-        border-bottom: 2px solid white;
-    }
-
-    .activeBlack {
-        color: black;
-        border-bottom: 2px solid black;
-    }
-
 
     body {
         display:flex; 
@@ -168,7 +156,14 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        height: 100%;
+        font-size: 28px;
+        height: 60%;
+    }
+
+    .words1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
         font-size: 28px;
     }
 
