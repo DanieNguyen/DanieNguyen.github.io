@@ -385,7 +385,7 @@
 /* portfolio piece description */ 
     #piece {
         display: none;
-        height: 92%;
+        height: 60%;
         width: 75%;
         margin: auto;
     }
