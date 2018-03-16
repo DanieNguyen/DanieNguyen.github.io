@@ -108,7 +108,7 @@ $(document).ready(function () {
         $('#piece').empty();
         $('#piece').fadeIn(2000);
         $('#arrow3').fadeIn(2000);
-        $('#piece').append("<h1>Graphic Design</h1><p>" + pieces[5] + "</p><br><div class='row'><div class=col-md-4><img class='image' src='Images/jaqua.PNG' alt='jaqua logo'></div><div class=col-md-4><a href='Images/DigitalTwin.PNG' target='_blank'><img class='image' src='Images/DigitalTwin.PNG' alt='digital twin'></a></div><div class=col-md-4><video width='300' height='200' controls><source src='Images/comp.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div></div>");
+        $('#piece').append("<h1>Graphic Design</h1><p>" + pieces[5] + "</p><br><div class='row'><div class=col-md-4><img class='image' src='Images/jaqua.png' alt='jaqua logo'></div><div class=col-md-4><a href='Images/DigitalTwin.PNG' target='_blank'><img class='image' src='Images/DigitalTwin.png' alt='digital twin'></a></div><div class=col-md-4><video width='300' height='200' controls><source src='Images/comp.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div></div>");
     });
     
 });
