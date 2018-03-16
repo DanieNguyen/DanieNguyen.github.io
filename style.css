@@ -27,11 +27,6 @@
         height: 100%;
         text-align: center;
         background-color: white;
-        background-image: url("Images/laptop.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 640px;
-        resize: both;
     }
 
 /* home page, about section */
@@ -210,6 +205,11 @@
         flex-direction: column;
         font-size: 28px;
         height: 60%;
+        background-image: url("Images/laptop.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 640px;
+        resize: both;
     }
 
 /* Heading words */
