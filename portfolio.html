@@ -1,7 +1,7 @@
 <html>
 <head>
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="bootstrap-4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:500" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" type="text/css">
@@ -26,15 +26,15 @@
             </li>
         </ul>
         <div class="words1">
-            <span class="txt-rotate" data-period="1500" data-rotate='[ "My Code", "My Designs", "My Work"]'></span>
+            <span class="txt-rotate" data-period="1500" data-rotate='[ "My Code", "My Designs", "My Art", "My Work"]'></span>
         </div>
     </div>
-    <div class="gallery">
+    <div class="gallery" id="gal">
         <div class="row">
             <div class="col-md-4">
-                <div class="thumbnail">
-                    <a href="Images/website.PNG">
-                        <img class="image" src="Images/website.PNG" alt="MyWebsite">
+                <div class="thumb">
+                    <a href="#piece" id="one">
+                        <img class="image"src="Images/website.PNG" alt="MyWebsite">
                         <div class="caption">
                             <p>Code</p>
                         </div>
@@ -42,8 +42,8 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="thumbnail">
-                    <a href="Images/design.JPG">
+                <div class="thumb">
+                    <a href="#piece" id="two">
                         <img class="image" src="Images/design.JPG" alt="HCDE">
                         <div class="caption">
                             <p>HCDE Work</p>
@@ -52,8 +52,8 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="thumbnail">
-                    <a href="Images/chef.PNG">
+                <div class="thumb">
+                    <a href="#piece" id="thr">
                         <img class="image" src="Images/chef.PNG" alt="Lights">
                         <div class="caption">
                             <p>College Chef</p>
@@ -64,8 +64,8 @@
         </div>
         <div class="row">
             <div class="col-md-4">
-                <div class="thumbnail">
-                    <a href="Images/CollisionGif.gif">
+                <div class="thumb">
+                    <a href="#piece" id="fou">
                         <img class="image" src="Images/CollisionGif.gif" alt="MyWebsite">
                         <div class="caption">
                             <p>SpaceBox</p>
@@ -74,8 +74,8 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="thumbnail">
-                    <a href="Images/visual.PNG">
+                <div class="thumb">
+                    <a href="#piece" id="fiv">
                         <img class="image" src="Images/visual.PNG" alt="Lights">
                         <div class="caption">
                             <p>Data Visualizations</p>
@@ -84,8 +84,8 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="thumbnail">
-                    <a href="Images/wolftat.PNG">
+                <div class="thumb">
+                    <a href="#piece" id="six">
                         <img class="image" src="Images/wolftat.PNG" alt="Lights">
                         <div class="caption">
                             <p>Graphic Design</p>
@@ -95,6 +95,11 @@
             </div>
         </div>
     </div>
+    <div id="piece">
+    </div>
+    <a href="#gal" id="arrow3">
+        <span></span>
+    </a>
     <div class="foot1" id="contact">
         <table>
             <tr>
@@ -129,7 +134,7 @@
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="bootstrap-4/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="portfo.js"></script>
 </body>
 </html>

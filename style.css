@@ -1,7 +1,28 @@
 /* Style Sheet for Portfolio Website */
 
 @media screen and (min-width: 800px) { /*The following CSS runs only for displays with a width (in pixels) of more than 800px*/
-    .intro {
+
+/* BODY */
+    body {
+        display:flex; 
+        flex-direction:column; 
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+        background-color: #F8F8FF;
+    }
+
+/* logo */
+    .logo {
+        float: left;
+        width: 60px;
+        height: 60px;
+        resize: both;
+        padding: 10px;
+        vertical-align: middle;
+    }
+
+/* home page, top part */ 
+   .intro {
         width: 100%;
         height: 100%;
         text-align: center;
@@ -13,6 +34,7 @@
         resize: both;
     }
 
+/* home page, about section */
     #about {
         width: 100%;
         height: 92%;
@@ -21,7 +43,7 @@
         color: #35462B;
     }
 
-    
+/* contact page, top part */
     .contact {
         width: 100%;
         height: 40%;
@@ -30,13 +52,20 @@
         color: black;
     }
 
+/* contact page, form part */
     .contactform {
         width: 60%;
         margin: auto;
         margin-top: 5%;
-        background-color:white;
+        background-color: #FFEFA2;
     }
 
+/* contact page, background */
+    .cont {
+            background-color: #FFEFA2;
+        }
+
+/* portfolio page, top part */
     .portfolio {
         width: 100%;
         height: 40%;
@@ -45,6 +74,7 @@
         color: black;
     }
 
+/* portfolio page, main part */
     .gallery {
         height: 90%;
         margin: auto;
@@ -52,17 +82,26 @@
         margin-top: 8%;
     }
 
-    .thanks {
-        margin: auto;
-        margin-top: 5%;
-        background-color:white;
-        font-size: 24px;
-        text-align: center;
-    }
+/* portfolio page, background */
     .port {
         background-color: #C7ECEE;
     }
 
+/* thanks page, thank you sentence */
+    .thanks {
+        margin: auto;
+        margin-top: 8%;
+        height: 30%;
+        background-color:lavenderblush;
+        font-size: 24px;
+    }
+
+/* thanks page, background */
+    .tank {
+        background-color: lavenderblush;
+    }
+
+/* footer home page */
     .foot {
         margin-top:auto;
         text-align: center;
@@ -72,6 +111,18 @@
         background-color: #F1F2EB;
     }
 
+/* footer home page color */
+    .foot table {
+        margin: auto;
+        color: #566246;
+    }
+
+/* footer home page color */
+    .boo {
+        color: #566246;
+    }
+
+/* footer portfolio page */
     .foot1 {
         margin-top:auto;
         text-align: center;
@@ -81,29 +132,45 @@
         background-color: #3E5C76;
     }
 
-    .foot table {
-        margin: auto;
-        color: #566246;
+
+/* footer contact page */
+    .foot2 {
+        margin-top:auto;
+        text-align: center;
+        height: 8%;
+        padding-bottom: 1%;
+        padding-top: 1%;
+        background-color: #8AC9C1;
     }
 
-    .foot1 table {
-        margin: auto;
-        color: whitesmoke;
+/* footer thanks page */
+    .foot3 {
+        margin-top:auto;
+        text-align: center;
+        height: 8%;
+        padding-bottom: 1%;
+        padding-top: 1%;
+        background-color: #5399B5;
     }
 
+/* footer all pages spacing */
     td, th {
         padding-left: 10px;
         padding-right: 10px;
     }
-    
-    .boo {
-        color: #566246;
+
+/* footer most pages text color */
+    .foot1 table, .foot2 table, .foot3 table {
+        margin: auto;
+        color: whitesmoke;
     }
 
+/* footer most pages text color */
     .boo1 {
         color: whitesmoke;
     }
 
+/* navigation bar */
     .nav {
         list-style-type: none;
         margin: 0;
@@ -134,24 +201,7 @@
         border-bottom: 2px solid black;
     }
 
-    body {
-        display:flex; 
-        flex-direction:column; 
-        font-size: 16px;
-        font-family: 'Raleway', sans-serif;
-        background-color: #F8F8FF;
-    }
-
-    .logo {
-        float: left;
-        width: 60px;
-        height: 60px;
-        resize: both;
-        padding: 10px;
-        vertical-align: middle;
-    }
-
-
+/* Heading words */
     .words {
         display: flex;
         justify-content: center;
@@ -160,6 +210,8 @@
         height: 60%;
     }
 
+/* Heading words */
+
     .words1 {
         display: flex;
         justify-content: center;
@@ -167,18 +219,43 @@
         font-size: 28px;
     }
 
-    .descr h1 {
+/* Headers */
+    h1 {
         font-size: 28px;
         margin-top: 5%;
         margin-bottom: 5%;
     }
 
+/* About section words */
     .descr p {
         margin: 5%;
         text-align: left;
 
     }
 
+/* About section, word spacing */
+    p {
+        margin-bottom: 1% !important;
+    }
+
+/* About section, picture of me */
+    .picofme {
+        height: 275px;
+        width: 400px;
+        float: right;
+        resize: both;
+        margin-left: 10%;
+    }
+
+/* About section, current classes */
+    .classes {
+        list-style-type: none;
+        text-align: left;
+        margin-left: 10%;
+        padding: 0px;
+    }
+
+/* Arrow aesthetics */
     #arrow span {
         position: absolute;
         bottom: 4%;
@@ -193,6 +270,7 @@
         box-sizing: border-box;
     }
 
+/* Arrow aesthetics */
     #arrow2 span {
         position: absolute;
         bottom: -92%;
@@ -206,44 +284,72 @@
         transform: rotate(135deg);
         box-sizing: border-box;
     }
+    
+/* Arrow aesthetics */
+    #arrow3 span {
+        position: absolute;
+        bottom: -138%;
+        margin: auto;
+        width: 24px;
+        height: 24px;
+        left: 49%;
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+        -webkit-transform: rotate(135deg);
+        transform: rotate(135deg);
+        box-sizing: border-box;
+    }
 
+/* Arrow aesthetics */
     #arrow span:hover {
         width: 28px;
         height: 28px;
         left: 49%;
     }  
     
+/* Arrow aesthetics */
     #arrow2 span:hover {
         width: 28px;
         height: 28px;
         left: 49%;
     }
-    
-    p {
-        margin-bottom: 1% !important;
+
+/* Arrow aesthetics */
+    #arrow3 span:hover {
+        width: 28px;
+        height: 28px;
+        left: 49%;
     }
 
-    .classes {
-        list-style-type: none;
-        text-align: left;
-        margin-left: 10%;
-        padding: 0px;
-    }
-    
-    .picofme {
-        height: 275px;
-        width: 400px;
-        float: right;
-        resize: both;
-        margin-left: 10%;
-    }
-
+/* portfolio gallery pictures */
     .image {
         width: 300px;
         height: 200px;
+        resize: both;
     }
 
-    
+/* portfolio gallery pictures */
+    .image2 {
+        width: 200px;
+        height: 200px;
+        resize: both;
+    }
+
+/* portfolio gallery pictures */
+    .image3 {
+        width: 150px;
+        height: 200px;
+        resize: both;
+    }
+
+/* portfolio gallery pictures */
+    .image4 {
+        width: 400px;
+        height: 200px;
+        resize: both;
+    }
+
+/* portfolio gallery captions */
     .caption {
         position: absolute; 
         bottom: 0; 
@@ -258,18 +364,35 @@
         text-align: center;
     }
 
-    .thumbnail {
+/* portfolio gallery captions */
+    .thumb {
         position: relative;
     }
-    .thumbnail:hover .caption {
+
+/* portfolio gallery captions */
+    .thumb:hover .caption {
         opacity: 1;
     }
 
+/* portfolio gallery spacing */
     .row {
         margin-bottom: 30px;
+        text-align: center;
     }
 
-}
+/* portfolio piece description */ 
+    #piece {
+        display: none;
+        height: 92%;
+        width: 75%;
+        margin: auto;
+    }
+
+/* Hide scroll arrow portfolio */
+    #arrow3 {
+        display: none;
+    }
+
 
 
 @media screen and (max-width: 800px) { /*The following CSS runs only for displays with a width (in pixels) of less than 800px*/
