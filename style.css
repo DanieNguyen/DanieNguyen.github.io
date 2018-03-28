@@ -100,6 +100,7 @@
     .foot {
         margin-top:auto;
         text-align: center;
+        position: relative;
         height: 8%;
         padding-bottom: 1%;
         padding-top: 1%;
@@ -108,8 +109,12 @@
 
 /* footer home page color */
     .foot table {
-        margin: auto;
         color: #566246;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
 /* footer home page color */
@@ -121,17 +126,16 @@
     .foot1 {
         margin-top:auto;
         text-align: center;
+        position: relative;
         height: 8%;
-        padding-bottom: 1%;
-        padding-top: 1%;
         background-color: #3E5C76;
     }
-
 
 /* footer contact page */
     .foot2 {
         margin-top:auto;
         text-align: center;
+        position: relative;
         height: 8%;
         padding-bottom: 1%;
         padding-top: 1%;
@@ -141,6 +145,7 @@
 /* footer thanks page */
     .foot3 {
         margin-top:auto;
+        position: relative;
         text-align: center;
         height: 8%;
         padding-bottom: 1%;
@@ -156,8 +161,12 @@
 
 /* footer most pages text color */
     .foot1 table, .foot2 table, .foot3 table {
-        margin: auto;
         color: whitesmoke;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
 /* footer most pages text color */
@@ -290,7 +299,7 @@
 /* Arrow aesthetics */
     #arrow3 span {
         position: absolute;
-        bottom: -138%;
+        bottom: -139%;
         margin: auto;
         width: 24px;
         height: 24px;
@@ -385,7 +394,7 @@
 /* portfolio piece description */ 
     #piece {
         display: none;
-        height: 60%;
+        height: 92%;
         width: 75%;
         margin: auto;
     }
