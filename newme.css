@@ -263,7 +263,7 @@ body::-webkit-scrollbar {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background: (0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .container:hover .overlay {
