@@ -263,7 +263,7 @@ body::-webkit-scrollbar {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background: linear-gradient(290deg,#6db1ff, #d092a5, #fcc865);
+    background: (0, 0, 0, 0.6);
 }
 
 .container:hover .overlay {
