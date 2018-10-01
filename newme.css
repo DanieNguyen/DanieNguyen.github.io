@@ -282,6 +282,18 @@ body::-webkit-scrollbar {
     text-align: center;
 }
 
+.text2 {
+    color: white;
+    font-size: 1.3vw;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -60%);
+    -ms-transform: translate(-50%, -60%);
+    transform: translate(-50%, -60%);
+    text-align: center;
+}
+
 /* Contact Section */
 #contact {
     padding-top: 3vw;
